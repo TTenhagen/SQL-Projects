@@ -1,4 +1,4 @@
---Data that was used
+--Data that will be used
 SELECT location, date, total_cases, new_cases, total_deaths, population
 from COVID_portfolio_project..COVIDDeaths
 where continent is not null
