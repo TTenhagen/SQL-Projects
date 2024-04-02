@@ -1,3 +1,5 @@
+--data is pulled from https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbG9DRVZjZGJmSndzQVlmcV9Dc2wyWnVrWHFrQXxBQ3Jtc0tsRU9RM2hnYTNiVjh2WFozd0tfWE9mcnNLM1gzRUFFX0dnaGZBbEh4UDNJaHhpbGc5aUdENmVWMDV0SnhIdHhpVkx4Z3JjLUJicnBjNU53YXduZXJBVTZ4c0l4aXpPak51UTIyWVUwMGZoREp5eG95NA&q=https%3A%2F%2Fourworldindata.org%2Fcovid-deaths&v=qfyynHBFOsM
+
 --Data that will be used
 SELECT location, date, total_cases, new_cases, total_deaths, population
 from COVID_portfolio_project..COVIDDeaths
